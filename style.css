@@ -114,7 +114,7 @@ hr {
 
 .half-width {
     display: flex;
-    padding: 7% 10% 10% 10%;
+    padding: 5% 10% 3% 10%;
 }
 
 .half-width img {
@@ -136,11 +136,20 @@ hr {
     text-decoration: none;
     color: white;
     padding: 15px 40px;
-    background-color: #150564;
+    background-color: tomato;
     border-radius: 10px;
 }
 
-.half-width-txt-2 {
+.half-width-txt-2 p {
     font-size: 20px;
     padding-left: 100px;
+}
+
+.half-width-txt-2 h1 {
+    font-size: 40px;
+    padding-left: 100px;
+}
+
+.half-width-txt-2 a {
+    margin-left: 100px;
 }
