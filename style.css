@@ -155,6 +155,12 @@ hr {
     margin-left: 100px;
 }
 
+.email-section-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .email-section {
     display: flex;
     align-items: center;
