@@ -6,6 +6,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -113,5 +114,33 @@ hr {
 
 .half-width {
     display: flex;
-    margin-top: 80px;
+    padding: 7% 10% 10% 10%;
+}
+
+.half-width img {
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.half-width-txt h1 {
+    font-size: 40px;
+}
+
+.half-width-txt p {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.btn-2 {
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    background-color: #150564;
+    border-radius: 10px;
+}
+
+.half-width-txt-2 {
+    font-size: 20px;
+    padding-left: 100px;
 }
