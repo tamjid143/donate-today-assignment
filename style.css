@@ -1,0 +1,111 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-section {
+    background-image: url(/images/banner.jpg);
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-section-txt {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.div-txt {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.div-txt p {
+    color: #B3B3B3;
+    font-weight: lighter;
+}
+
+#donate-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amount-btn {
+    text-decoration: none;
+    background-color: #fafafa;
+    padding: 40px 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #707070;
+    margin-bottom: 60px;
+}
+
+#amount-btn-2 {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+
+hr {
+    width: 40%;
+    align-items: center;
+    color: #dadada;
+    margin-bottom: 50px;
+}
+
+.btn-1 {
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    background-color: #fb6000;
+    border-radius: 10px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-style {
+    height: 250px;
+    width: 360px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.card-style img {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.card-txt {
+    margin-left: 15px;
+}
+
+#card-bg-1 {
+    background-color: rgba(79, 157, 166, 0.1);
+    ;
+}
+
+#card-bg-2 {
+    background-color: rgba(255, 89, 89, 0.1);
+    ;
+}
+
+#card-bg-3 {
+    background-color: #FFF4D6;
+}
